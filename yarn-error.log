@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/bin/yarn add promise-polyfill
+  /usr/bin/node /usr/bin/yarn add wepy-async-function
 
 PATH: 
   /home/vagrant/.composer/vendor/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-10-oracle/bin:/usr/lib/jvm/java-10-oracle/db/bin
@@ -38,6 +38,7 @@ npm manifest:
     "license": "MIT",
     "dependencies": {
       "global": "^4.3.2",
+      "promise-polyfill": "^8.1.0",
       "redux": "^3.7.2",
       "redux-actions": "^2.2.1",
       "redux-promise": "^0.5.3",
@@ -3379,6 +3380,10 @@ Lockfile:
   promise-polyfill@^6.0.2:
     version "6.1.0"
     resolved "http://registry.npm.taobao.org/promise-polyfill/download/promise-polyfill-6.1.0.tgz#dfa96943ea9c121fca4de9b5868cb39d3472e057"
+  
+  promise-polyfill@^8.1.0:
+    version "8.1.0"
+    resolved "http://registry.npm.taobao.org/promise-polyfill/download/promise-polyfill-8.1.0.tgz#30059da54d1358ce905ac581f287e184aedf995d"
   
   promise@^7.1.1:
     version "7.3.1"
