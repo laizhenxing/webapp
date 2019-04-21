@@ -52,6 +52,7 @@ const login = async (params = {}) => {
     method: 'POST'
   })
 
+  console.log(authResponse)
   // 登录成功，记录 token 信息
   if (authResponse.statusCode === 201) {
     wepy.setStorageSync('access_token', authResponse.data.access_token)

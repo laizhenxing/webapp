@@ -1,0 +1,32 @@
+<template>
+    <view class="page">
+        <view>
+            <button type="success" @tap="test">测试</button>
+        </view>
+    </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class Test extends wepy.page {
+    config = {
+      navigationBarTitleText: '测试页面111'
+    }
+
+    data = {
+      msg: '测试内容111'
+    }
+    async onShow() {
+      // this.$apply()
+    }
+    methods = {
+      async test() {
+        wepy.showModal({
+          title: '测试',
+          content: this.msg
+        })
+      }
+    }
+  }
+</script>

@@ -40,7 +40,9 @@
       pages: [
         'pages/index',
         'pages/user',
-        'pages/auth/login'
+        'pages/auth/login',
+        'pages/test',
+        'pages/auth/register'
       ],
       window: {
         backgroundTextStyle: 'light',
@@ -59,6 +61,11 @@
           text: '我的',
           iconPath: 'images/user.png',
           selectedIconPath: 'images/user_selected.png'
+        }, {
+          pagePath: 'pages/test',
+          text: '测试',
+          iconPath: 'images/test.png',
+          selectedIconPath: 'images/test_selected.png'
         }],
         color: '#707070',
         selectedColor: '#00b5ad'
